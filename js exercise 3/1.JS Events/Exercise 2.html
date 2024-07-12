@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Text Input</title>
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+
+<input type="text" id="textInput" oninput="logInput()" placeholder="Type something...">
+
+<script>
+    function logInput() {
+        const input = document.getElementById('textInput').value;
+        console.log(input);
+    }
+</script>
+</body>
+</html>

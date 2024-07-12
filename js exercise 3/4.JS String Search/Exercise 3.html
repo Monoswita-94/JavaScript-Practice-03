@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Extract Word</title>
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+<script>
+    var myString = "Hello, world! Welcome to our world.";
+    var startIndex = myString.indexOf("world");
+    var extractedWord = myString.slice(startIndex, startIndex + "world".length);
+    console.log("The extracted word is: " + extractedWord);
+</script>
+</body>
+</html>
